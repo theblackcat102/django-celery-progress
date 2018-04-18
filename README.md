@@ -6,7 +6,7 @@ For Django <= 1.7, please refer to the original git repo [link](https://github.c
 
 ## Requirements
 
-* Django
+* Django >= 1.8
 * Celery
 
 ## Installation
@@ -68,5 +68,7 @@ celery_progress/templates/celery_progress/progress_bar.html to the newly created
 
 Static files for this package may need to transfer to your static sources as well.
 
+## TODO:
+1. test package for django 1.8 1.9 1.10 version (please post an issue if you tested the package in any of the newer django version)
 
 ### shout out to [Rob](https://github.com/robgolding) for creating this package.
