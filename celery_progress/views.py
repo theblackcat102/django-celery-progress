@@ -5,7 +5,6 @@ from django.views.generic.base import View
 
 from . import backend
 
-
 class ProgressView(View):
 
     def get(self, request, *args, **kwargs):
