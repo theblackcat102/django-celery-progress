@@ -33,6 +33,7 @@ Add package to INSTALLED_APPS in settings.py
 
 Setup your celery task: tasks.py
 ```
+import random, time
 from celery_progress import backend
 from celery import Celery
 
